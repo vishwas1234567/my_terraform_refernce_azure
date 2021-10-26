@@ -5,7 +5,7 @@ provider "azurerm" {
 
 # The Azure Active Directory Terraform provider
 provider "azuread" {
-  version = "=0.6.0"
+  version = "=0.6.0" #change in version is also considerd
 }
 
 # Reference to the current subscription.  Used when creating role assignments
